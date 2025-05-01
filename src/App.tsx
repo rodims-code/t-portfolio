@@ -1,13 +1,17 @@
-import Home from "./components/home";
+import About from "./components/About";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 
 
 export default function App() {
   return (
-    <div className="p-2 md:px-[15%]">
-      <Navbar />
-      <Home />
-
-    </div>
+    <div>
+      <div className="p-2 md:px-[15%]">
+        <Navbar />
+        <Home />
+     
+      </div>
+      <About/>
+    </div >
   );
 }
