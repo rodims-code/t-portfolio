@@ -12,7 +12,7 @@ const Navbar = () => {
             <ul className="hidden md:flex space-x-4">
                 <li>
                     <a href="#" className="btn btn-sm btn-ghost">
-                        acceille
+                        Acceille
                     </a>
                 </li>
                 <li>
